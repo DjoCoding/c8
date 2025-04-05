@@ -11,6 +11,10 @@ make
 ./main <file.ch8>
 ```
 
+# Docs
+[Chip8 Specification](https://tonisagrista.com/blog/2021/chip8-spec/)
+
+
 # Example
 ![](./assets/image1.png)
 ![](./assets/image2.png)
