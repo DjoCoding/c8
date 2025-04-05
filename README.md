@@ -10,3 +10,7 @@ chip-8 emulator made with C
 make
 ./main <file.ch8>
 ```
+
+# Example
+![](./assets/image1.png)
+![](./assets/image2.png)

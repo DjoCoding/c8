@@ -71,13 +71,11 @@ int main(int argc, char **argv) {
 
     chip8_t c = chip8_init(sdl, program);
 
-    bool quit = false;
     SDL_Event event = {0};
 
-    while(!quit) {
+    while(true) {
         while(SDL_PollEvent(&event)) {
             if(event.type == SDL_QUIT) {
-                quit = true;
                 break;
             }
         }
